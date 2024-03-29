@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    /* outline: 2px solid; */
+}
+
+
+.content{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.roundleaves{
+    width: 30vw;
+    height: 50vh;
+
+    opacity: 0;
+    animation: fade-in-for-roundleaves 2s ease-in forwards, 
+    fade-in-for-roundleaves-rorate 60s ease-in forwards ;
+}
+
+@keyframes fade-in-for-roundleaves {
+100% {
+
+    opacity: 1;
+}    
+
+}
+
+@keyframes fade-in-for-roundleaves-rorate {
+    100% {
+    
+        transform: rotate(360deg);
+    }    
+ }
+    
+
+
+
+.space{
+    flex-basis: 20%;
+    visibility: hidden;
+}
+
+
+
+
+.parentsavethedata{
+    position: absolute;
+    top: 35%;
+    left: 44%;
+    /* border: 2px solid red; */
+}
+.savethedate{
+    position: relative;
+  
+    
+}
+.save{
+    top: 30%;
+    font-family: "Dancing Script", cursive;
+    font-size: 500%;
+    font-weight: 12;
+    font-style: normal;
+    animation: fade-in-for-save 2s ease-in forwards  0.5s;
+    opacity: 0;
+
+}
+
+@keyframes fade-in-for-save {
+    100% {
+    
+        opacity: 1;
+    }
+}
+
+
+.the{
+    top: 50%;
+    left: 50%;
+    font-family: "Dancing Script", cursive;
+    font-size: 300%;
+    opacity: 0;
+    animation: fade-in-for-the 2s ease-in forwards 0.6s;
+
+
+}
+
+@keyframes fade-in-for-the {
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.date{
+    top: 52%;
+    left: 80%;
+    font-family: "Dancing Script", cursive;
+    font-size: 500%;
+    opacity: 0;
+    animation: fade-in-for-date 2s ease-in forwards 0.7s;
+
+}
+
+@keyframes fade-in-for-date {
+    100% {
+    
+        opacity: 1;
+    }
+}
+
+
+.names{
+    letter-spacing: .2rem;
+    animation: fade-in-for-names 2s ease-in forwards 0.8s;
+    opacity: 0;
+}
+
+
+
+@keyframes fade-in-for-names {
+    100% {
+    
+        opacity: 1;
+    }
+}
+
+
+@media (max-width: 500px){
+    .roundleaves{
+        width: 70vw;
+        height: 40vh;
+        opacity: 0;
+        animation: fade-in-for-roundleaves 2s ease-in forwards , 
+        fade-in-for-roundleaves-rorate 40s ease-in forwards ;
+    }
+
+
+    .parentsavethedata{
+        position: absolute;
+        top: 38%;
+        left: 35%;
+        /* border: 2px solid red; */
+        font-size: 11px;
+    }
+}
+
+
+
+
