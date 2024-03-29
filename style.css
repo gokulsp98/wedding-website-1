@@ -138,7 +138,7 @@
 @media (max-width: 500px){
     .roundleaves{
         width: 70vw;
-        height: 40vh;
+        height: 35vh;
         opacity: 0;
         animation: fade-in-for-roundleaves 2s ease-in forwards , 
         fade-in-for-roundleaves-rorate 40s ease-in forwards ;
