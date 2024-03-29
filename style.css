@@ -22,8 +22,7 @@
     width: 500px;
     height: 500px;
     opacity: 0;
-    animation: fade-in-for-roundleaves 2s ease-in forwards, 
-    fade-in-for-roundleaves-rorate 60s ease-in forwards ;
+    animation: fade-in-for-roundleaves 2s ease-in forwards;
 }
 
 @keyframes fade-in-for-roundleaves {
@@ -34,13 +33,7 @@
 
 }
 
-@keyframes fade-in-for-roundleaves-rorate {
-    100% {
-    
-        transform: rotate(360deg);
-    }    
- }
-    
+ 
 
 
 
@@ -139,8 +132,7 @@
         width: 400px;
         height: 400px;
         opacity: 0;
-        animation: fade-in-for-roundleaves 2s ease-in forwards , 
-        fade-in-for-roundleaves-rorate 40s ease-in forwards ;
+        animation: fade-in-for-roundleaves 2s ease-in forwards;
     }
 
 
