@@ -21,7 +21,6 @@
 .roundleaves{
     width: 500px;
     height: 500px;
-
     opacity: 0;
     animation: fade-in-for-roundleaves 2s ease-in forwards, 
     fade-in-for-roundleaves-rorate 60s ease-in forwards ;
@@ -38,7 +37,7 @@
 @keyframes fade-in-for-roundleaves-rorate {
     100% {
     
-        transform: rotate(360deg);
+        transform: rotate(180deg);
     }    
  }
     
@@ -56,7 +55,7 @@
 .parentsavethedata{
     position: absolute;
     top: 35%;
-    left: 44%; 
+    left: 44%;
     /* border: 2px solid red; */
 }
 .savethedate{
@@ -137,8 +136,8 @@
 
 @media (max-width: 500px){
     .roundleaves{
-        width: 300px;
-        height: 300px;
+        width: 400px;
+        height: 400px;
         opacity: 0;
         animation: fade-in-for-roundleaves 2s ease-in forwards , 
         fade-in-for-roundleaves-rorate 40s ease-in forwards ;
@@ -154,7 +153,7 @@
     }
 
     .sapce1{
-        flex-basis: 10%;
+        flex-basis: 1%;
 
     }
 }
