@@ -37,7 +37,7 @@
 @keyframes fade-in-for-roundleaves-rorate {
     100% {
     
-        transform: rotate(180deg);
+        transform: rotate(360deg);
     }    
  }
     
